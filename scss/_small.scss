@@ -21,76 +21,33 @@ body {
 
 
 /* --------------------------- HEADER --------------------------- */
-#headerWrapper {border-bottom: 1px solid $greyColor;}
+#headerWrapper {
+    background-color: #eee;
+    color: $primaryColor;
+}
 header {
-    display: grid;
-    grid-template-columns: 50px auto 44px;
-    column-gap: $gutter;
-    align-items: center; //vertically
-    padding: .5rem $gutter;
-
-    img{ grid-column: 1;}
-
-    p{
-        grid-column: 1 / -1;
-        color: $secondaryColor;
-        font-size: .9rem;
-        align-self: start;
-        padding-top: .5rem;
+    padding: 1rem $gutter;
+    display: flex;
+    h1 {
+        margin: 0;
+        font-size: 1.2rem;
+        font-weight: $normalWeight;
     }
-    
-    span {
-        font-size: 1.6rem;
-        font-weight: $lightWeight;
-        color: $primaryColor;
-    }
-} // end header
+}
+
 
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 
-#hamburgerBtn {
-    position: relative;
-    height: 44px;
-    width: 44px;
-    cursor: pointer;
-    //border: 1px solid #add;
-    border-radius: 10px;
 
 
-.top, .bottom {
-    position: absolute;
-    height: 2px;
-    width: 50%;
-    left: 25%;
-    background-color: #777;
-    transition: all .3s ease;
-}
 
-.top {
-    top: 33%;
-}
-.bottom {
-    top: 62%;
-}
-}//end of hamburger
 
-#hamburgerBtn.open {
-    .top {
-        transform: rotate(45deg);
-        top: 48%;
-        width: 60%;
-        left: 20%;
-    }
-    .bottom {
-        transform: rotate(-45deg);
-        top: 48%;
-        width: 60%;
-        left: 20%;
-    }
-}//end open
+//begin header styling
 #navWrapper{ 
-    background-color: $secondaryColor;
+    background-color: $menuColor;
+    position: sticky;
+    top: 0;
 }
 
 nav {
@@ -105,7 +62,7 @@ nav {
      }
 
      li.active {
-        background-color: black;
+        background-color: darken($menuColor,15%);
      }
 
     a {
@@ -114,9 +71,14 @@ nav {
         padding: 0.75rem;
         color: white;
         text-decoration: none;
-    
+        img {
+            width: 25px;
+        }
+        span {
+            display: none;
+        }
          &:hover {
-           background-color: $primaryColor;
+           background-color: lighten($menuColor,10%);
           }
         }
     }

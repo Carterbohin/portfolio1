@@ -320,71 +320,25 @@ body {
 
 /* --------------------------- HEADER --------------------------- */
 #headerWrapper {
-  border-bottom: 1px solid #ccc;
-}
-
-header {
-  display: grid;
-  grid-template-columns: 50px auto 44px;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
-  align-items: center;
-  padding: 0.5rem 10px;
-}
-header img {
-  grid-column: 1;
-}
-header p {
-  grid-column: 1/-1;
-  color: #fde47f;
-  font-size: 0.9rem;
-  align-self: start;
-  padding-top: 0.5rem;
-}
-header span {
-  font-size: 1.6rem;
-  font-weight: 300;
+  background-color: #eee;
   color: #b466ab;
 }
 
+header {
+  padding: 1rem 10px;
+  display: flex;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
-#hamburgerBtn {
-  position: relative;
-  height: 44px;
-  width: 44px;
-  cursor: pointer;
-  border-radius: 10px;
-}
-#hamburgerBtn .top, #hamburgerBtn .bottom {
-  position: absolute;
-  height: 2px;
-  width: 50%;
-  left: 25%;
-  background-color: #777;
-  transition: all 0.3s ease;
-}
-#hamburgerBtn .top {
-  top: 33%;
-}
-#hamburgerBtn .bottom {
-  top: 62%;
-}
-
-#hamburgerBtn.open .top {
-  transform: rotate(45deg);
-  top: 48%;
-  width: 60%;
-  left: 20%;
-}
-#hamburgerBtn.open .bottom {
-  transform: rotate(-45deg);
-  top: 48%;
-  width: 60%;
-  left: 20%;
-}
-
 #navWrapper {
-  background-color: #fde47f;
+  background-color: #b466ab;
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
@@ -397,7 +351,7 @@ nav ul li {
   flex: 1;
 }
 nav ul li.active {
-  background-color: black;
+  background-color: #8a4482;
 }
 nav ul a {
   display: block;
@@ -406,8 +360,14 @@ nav ul a {
   color: white;
   text-decoration: none;
 }
+nav ul a img {
+  width: 25px;
+}
+nav ul a span {
+  display: none;
+}
 nav ul a:hover {
-  background-color: #b466ab;
+  background-color: #c588be;
 }
 
 section {
@@ -445,22 +405,17 @@ footer a {
 
 @media only screen and (min-width: 35rem) {
   /* NAVIGATION STUFF GOES HERE  */
-  #hamburgerBtn {
+  #headerWrappeer header {
+    padding: 2rem 10px;
+  }
+  #headerWrappeer h1 {
+    font-size: 2rem;
+  }
+  nav ul a img {
     display: none;
   }
-  #primaryNav {
-    display: flex;
-  }
-  nav ul li a {
-    border: none;
-    font-size: 0.85rem;
-    font-weight: 500;
-    padding: 0.5rem 1.2rem;
-    transition: background 0.5s linear;
-  }
-  nav ul li a:hover {
-    background-color: #b466ab;
-    color: white;
+  nav ul a span {
+    display: block;
   }
 }
 @media only screen and (min-width: 64rem) {
