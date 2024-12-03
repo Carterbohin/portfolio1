@@ -336,7 +336,7 @@ header img {
 }
 header p {
   grid-column: 1/-1;
-  color: #861447;
+  color: #fde47f;
   font-size: 0.9rem;
   align-self: start;
   padding-top: 0.5rem;
@@ -344,7 +344,7 @@ header p {
 header span {
   font-size: 1.6rem;
   font-weight: 300;
-  color: #1d295f;
+  color: #b466ab;
 }
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
@@ -384,7 +384,7 @@ header span {
 }
 
 #navWrapper {
-  background-color: #861447;
+  background-color: #fde47f;
 }
 
 nav ul {
@@ -407,7 +407,7 @@ nav ul a {
   text-decoration: none;
 }
 nav ul a:hover {
-  background-color: #1d295f;
+  background-color: #b466ab;
 }
 
 section {
@@ -418,7 +418,7 @@ section {
 main h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #861447;
+  color: #fde47f;
   font-weight: 300;
 }
 main p {
@@ -429,7 +429,7 @@ main p {
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-  background-color: #1d295f;
+  background-color: #b466ab;
 }
 
 footer {
@@ -459,7 +459,7 @@ footer a {
     transition: background 0.5s linear;
   }
   nav ul li a:hover {
-    background-color: #1d295f;
+    background-color: #b466ab;
     color: white;
   }
 }
