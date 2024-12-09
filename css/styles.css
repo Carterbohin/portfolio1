@@ -523,14 +523,15 @@ main #work .card-content p {
 main #work .card-content .card-link {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background-color: #007BFF;
+  background-color: #9f7ac4;
   color: #ffffff;
   border-radius: 4px;
   font-size: 0.9rem;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 main #work .card-content .card-link:hover {
-  background-color: #0056b3;
+  background-color: #7ac4c4;
 }
 main #contact {
   background-color: #9fc47a;

@@ -263,15 +263,16 @@ main {
   .card-content .card-link {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background-color: #007BFF;
+    background-color: $primaryColor;
     color: #ffffff;
     border-radius: 4px;
     font-size: 0.9rem;
     transition: background-color 0.3s ease;
+    text-decoration: none;
   }
   
   .card-content .card-link:hover {
-    background-color: #0056b3;
+    background-color: $accentColor;
   }
   
 
