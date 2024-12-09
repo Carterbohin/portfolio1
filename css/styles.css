@@ -440,7 +440,10 @@ main #work p {
 }
 main #contact {
   background-color: #9fc47a;
-  padding: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 main #contact h2 {
   padding: 1rem 10px 0.5rem 10px;
@@ -457,6 +460,54 @@ main #contact p {
   line-height: 150%;
   font-size: 1rem;
   text-align: justify;
+}
+main #contact .contact-form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+main #contact .contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main #contact .contact-form label {
+  font-size: 0.9rem;
+  color: #333;
+}
+main #contact .contact-form input,
+main #contact .contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+main #contact .contact-form input:focus,
+main #contact .contact-form textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+main #contact .contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+main #contact .contact-form .submit-button {
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+main #contact .contact-form .submit-button:hover {
+  background-color: #7ac4c4;
 }
 
 /* --------------------------- FOOTER --------------------------- */
