@@ -104,6 +104,24 @@ main {
 #about {
     padding: 1rem;
     background-color: $accentColor;
+    .image-grid {
+        display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    .image-grid img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+        border: 2px solid #a8a8a8;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
     h1 {
         padding: 1rem $gutter.5rem $gutter;
         font-size: 1.5rem;

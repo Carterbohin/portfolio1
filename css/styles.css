@@ -382,6 +382,24 @@ main #about {
   padding: 1rem;
   background-color: #7ac4c4;
 }
+main #about .image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+main #about .image-grid img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+main #about img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  border: 2px solid #a8a8a8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 main #about h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
