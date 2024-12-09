@@ -13,3 +13,17 @@ nav ul {
     position: fixed;
     li {flex: none;}
 }
+
+#work {
+    padding: 2rem 4rem; // Increase padding on large screens
+}
+
+h2 {
+    font-size: 2rem; // Larger font size for headings
+    text-align: left; // Align text to the left for large screens
+}
+
+p {
+    font-size: 1.1rem; // Slightly larger font size for readability
+}
+
