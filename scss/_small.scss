@@ -125,7 +125,7 @@ main {
 #education{
     background-color: $green;
     padding: 1rem;
-    h1 {
+    h2 {
         padding: 1rem $gutter.5rem $gutter;
         font-size: 1.5rem;
         color: $primaryColor;
@@ -145,10 +145,10 @@ main {
 #work {
     background-color: $blue;
     padding: 1rem;
-    h1 {
+    h2 {
         padding: 1rem $gutter.5rem $gutter;
         font-size: 1.5rem;
-        color: $primaryColor;
+        color: black;
         font-weight: $lightWeight;
         text-align: center;
         text-transform: uppercase;
@@ -166,10 +166,10 @@ main {
     background-color: $yellowgreen;
     padding: 1rem;
 
-    h1 {
+    h2 {
         padding: 1rem $gutter.5rem $gutter;
         font-size: 1.5rem;
-        color: $primaryColor;
+        color: black;
         font-weight: $lightWeight;
         text-align: center;
         text-transform: uppercase;

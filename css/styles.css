@@ -402,7 +402,7 @@ main #education {
   background-color: #7ac48c;
   padding: 1rem;
 }
-main #education h1 {
+main #education h2 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
   color: #9f7ac4;
@@ -422,10 +422,10 @@ main #work {
   background-color: #7a8cc4;
   padding: 1rem;
 }
-main #work h1 {
+main #work h2 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #9f7ac4;
+  color: black;
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
@@ -442,10 +442,10 @@ main #contact {
   background-color: #9fc47a;
   padding: 1rem;
 }
-main #contact h1 {
+main #contact h2 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #9f7ac4;
+  color: black;
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
