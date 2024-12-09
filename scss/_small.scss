@@ -29,11 +29,13 @@ body {
 header {
     padding: 1rem $gutter;
     display: flex;
-    h1 {
-        margin: 0;
-        font-size: 1.2rem;
-        font-weight: $normalWeight;
-    }
+    span {
+        padding: 10px;
+    margin: auto;
+    font-size: xx-large;
+    color: $green;
+    font-weight: 500;
+}
 }
 
 
@@ -98,17 +100,99 @@ section {
 
 /* --------------------------- MAIN --------------------------- */
 main {
+
+#about {
+    padding: 1rem;
+    background-color: $accentColor;
     h1 {
         padding: 1rem $gutter.5rem $gutter;
         font-size: 1.5rem;
-        color: $secondaryColor;
-        font-weight: $lightWeight
+        color: $primaryColor;
+        font-weight: $lightWeight;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.05rem;
     }
     p {
         padding: .5rem $gutter;
-        color: #333;
+        color: #000000;
         line-height: $leading;
+        font-size: 1rem;
+        text-align: justify;
     }
+
+}
+#education{
+    background-color: $green;
+    padding: 1rem;
+    h1 {
+        padding: 1rem $gutter.5rem $gutter;
+        font-size: 1.5rem;
+        color: $primaryColor;
+        font-weight: $lightWeight;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.05rem;
+    }
+    p {
+        padding: .5rem $gutter;
+        color: #000000;
+        line-height: $leading;
+        font-size: 1rem;
+        text-align: justify;
+    }
+}
+#work {
+    background-color: $blue;
+    padding: 1rem;
+    h1 {
+        padding: 1rem $gutter.5rem $gutter;
+        font-size: 1.5rem;
+        color: $primaryColor;
+        font-weight: $lightWeight;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.05rem;
+    }
+    p {
+        padding: .5rem $gutter;
+        color: #000000;
+        line-height: $leading;
+        font-size: 1rem;
+        text-align: justify;
+    }
+}
+#contact{
+    background-color: $yellowgreen;
+    padding: 1rem;
+
+    h1 {
+        padding: 1rem $gutter.5rem $gutter;
+        font-size: 1.5rem;
+        color: $primaryColor;
+        font-weight: $lightWeight;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.05rem;
+    }
+    p {
+        padding: .5rem $gutter;
+        color: #000000;
+        line-height: $leading;
+        font-size: 1rem;
+        text-align: justify;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 }// end main
 
 

@@ -329,9 +329,11 @@ header {
   padding: 1rem 10px;
   display: flex;
 }
-header h1 {
-  margin: 0;
-  font-size: 1.2rem;
+header span {
+  padding: 10px;
+  margin: auto;
+  font-size: xx-large;
+  color: #7ac48c;
   font-weight: 500;
 }
 
@@ -376,16 +378,85 @@ section {
 }
 
 /* --------------------------- MAIN --------------------------- */
-main h1 {
+main #about {
+  padding: 1rem;
+  background-color: #7ac4c4;
+}
+main #about h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #c4b27a;
+  color: #9f7ac4;
   font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
 }
-main p {
+main #about p {
   padding: 0.5rem 10px;
-  color: #333;
+  color: #000000;
   line-height: 150%;
+  font-size: 1rem;
+  text-align: justify;
+}
+main #education {
+  background-color: #7ac48c;
+  padding: 1rem;
+}
+main #education h1 {
+  padding: 1rem 10px 0.5rem 10px;
+  font-size: 1.5rem;
+  color: #9f7ac4;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+main #education p {
+  padding: 0.5rem 10px;
+  color: #000000;
+  line-height: 150%;
+  font-size: 1rem;
+  text-align: justify;
+}
+main #work {
+  background-color: #7a8cc4;
+  padding: 1rem;
+}
+main #work h1 {
+  padding: 1rem 10px 0.5rem 10px;
+  font-size: 1.5rem;
+  color: #9f7ac4;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+main #work p {
+  padding: 0.5rem 10px;
+  color: #000000;
+  line-height: 150%;
+  font-size: 1rem;
+  text-align: justify;
+}
+main #contact {
+  background-color: #9fc47a;
+  padding: 1rem;
+}
+main #contact h1 {
+  padding: 1rem 10px 0.5rem 10px;
+  font-size: 1.5rem;
+  color: #9f7ac4;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+main #contact p {
+  padding: 0.5rem 10px;
+  color: #000000;
+  line-height: 150%;
+  font-size: 1rem;
+  text-align: justify;
 }
 
 /* --------------------------- FOOTER --------------------------- */
