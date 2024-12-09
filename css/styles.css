@@ -402,6 +402,14 @@ main #education {
   background-color: #7ac48c;
   padding: 1rem;
 }
+main #education img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  border: 2px solid #a8a8a8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 main #education h2 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
@@ -421,6 +429,11 @@ main #education p {
 main #work {
   background-color: #7a8cc4;
   padding: 1rem;
+  /* Portfolio Header */
+  /* Card Container */
+  /* Individual Card */
+  /* Card Image */
+  /* Card Content */
 }
 main #work h2 {
   padding: 1rem 10px 0.5rem 10px;
@@ -437,6 +450,69 @@ main #work p {
   line-height: 150%;
   font-size: 1rem;
   text-align: justify;
+}
+main #work .portfolio-header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+main #work .portfolio-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+main #work .portfolio-header p {
+  font-size: 1rem;
+  color: #555;
+}
+main #work .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+main #work .card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+main #work .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+main #work .card-image {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #work .card-content {
+  padding: 1.5rem;
+  text-align: center;
+}
+main #work .card-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+main #work .card-content p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+main #work .card-content .card-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007BFF;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+main #work .card-content .card-link:hover {
+  background-color: #0056b3;
 }
 main #contact {
   background-color: #9fc47a;
