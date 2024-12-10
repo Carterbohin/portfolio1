@@ -391,7 +391,6 @@ main #about {
 }
 main #about .image-grid {
   display: grid;
-  grid-template-columns: repeat(1fr);
   gap: 1rem;
 }
 main #about .image-grid img {
@@ -424,7 +423,7 @@ main #about p {
   text-align: center;
   font-weight: 300;
   max-width: 100%;
-  margin: 10 auto;
+  margin: 10 0;
   text-transform: none;
   letter-spacing: 0.01rem;
 }
