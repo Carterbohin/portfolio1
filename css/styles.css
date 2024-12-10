@@ -528,6 +528,9 @@ main .card-content .card-link {
 main .card-content .card-link:hover {
   background-color: #7ac4c4;
 }
+main #tech {
+  background-color: #c4b27a;
+}
 main #contact {
   background-color: #9fc47a;
   padding: 2rem;
