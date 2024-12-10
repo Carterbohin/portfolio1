@@ -140,7 +140,7 @@ main {
             text-align: center; // Align text to the left for better readability (center can be harder to read in large blocks)
             font-weight: 300; // Regular font weight for a clean look
             max-width: 100%; // Limit the width for better line length
-            margin: 10 0; // Center the paragraph if it's inside a container
+           
             text-transform: none; // Keep text in its natural case (unless you want it to be uppercase, etc.)
             letter-spacing: 0.01rem; // Slightly increased letter-spacing for better readability
         }
