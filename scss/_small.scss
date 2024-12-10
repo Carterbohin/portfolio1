@@ -24,7 +24,7 @@ body {
 /* --------------------------- HEADER --------------------------- */
 #headerWrapper {
     background-color: #eee;
-    color: $primaryColor;
+    color: black;
 }
 header {
     padding: 1rem $gutter;
@@ -126,7 +126,7 @@ main {
         h1 {
             padding: 1rem $gutter.5rem $gutter;
             font-size: 1.5rem;
-            color: $primaryColor;
+            color: black;
             font-weight: $lightWeight;
             text-align: center;
             text-transform: uppercase;
@@ -272,8 +272,8 @@ main {
 .card-content .card-link {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background-color: $primaryColor;
-    color: #ffffff;
+    background-color: $green;
+    color: black;
     border-radius: 4px;
     font-size: 0.85rem;
     transition: background-color 0.3s ease;
@@ -468,7 +468,7 @@ main {
 footer {
     font-size: .85rem;
     padding: 1rem $gutter;
-    color: $greyColor;
+    color: #4c4c4c;
     text-align: center;
     line-height: $leading;
     a {color: $greyColor;}

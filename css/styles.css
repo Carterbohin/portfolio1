@@ -322,7 +322,7 @@ body {
 /* --------------------------- HEADER --------------------------- */
 #headerWrapper {
   background-color: #eee;
-  color: #9f7ac4;
+  color: black;
 }
 
 header {
@@ -409,7 +409,7 @@ main #about img {
 main #about h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #9f7ac4;
+  color: black;
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
@@ -530,8 +530,8 @@ main .card-content p {
 main .card-content .card-link {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background-color: #9f7ac4;
-  color: #ffffff;
+  background-color: #7ac48c;
+  color: black;
   border-radius: 4px;
   font-size: 0.85rem;
   transition: background-color 0.3s ease;
@@ -684,7 +684,7 @@ main #contact img:hover {
 footer {
   font-size: 0.85rem;
   padding: 1rem 10px;
-  color: #ccc;
+  color: #4c4c4c;
   text-align: center;
   line-height: 150%;
 }
