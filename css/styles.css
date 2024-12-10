@@ -353,9 +353,6 @@ nav ul {
 nav ul li {
   flex: 1;
 }
-nav ul .active {
-  background-color: #a74a91;
-}
 nav ul a {
   display: block;
   text-align: center;
@@ -371,6 +368,9 @@ nav ul a span {
 }
 nav ul a:hover {
   background-color: #d49dc6;
+}
+nav ul .active a {
+  background-color: #a74a91;
 }
 
 section {
