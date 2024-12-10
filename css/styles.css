@@ -573,6 +573,10 @@ main #contact {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* Subheading h3 */
+  /* Paragraph styling */
+  /* Image Styling */
+  /* Image hover effect */
 }
 main #contact h2 {
   padding: 1rem 10px 0.5rem 10px;
@@ -589,6 +593,12 @@ main #contact p {
   line-height: 150%;
   font-size: 1rem;
   text-align: justify;
+}
+main #contact h3 {
+  font-size: 1.5rem;
+  color: #555; /* A slightly lighter color for contrast */
+  font-weight: 400; /* Semi-bold for emphasis */
+  margin-bottom: 1rem;
 }
 main #contact .contact-form {
   background: #ffffff;
@@ -638,9 +648,25 @@ main #contact .contact-form .submit-button {
 main #contact .contact-form .submit-button:hover {
   background-color: #7ac4c4;
 }
-main #socail-media p {
-  text-align: center;
-  font-weight: 500;
+main #contact p {
+  font-size: 1.1rem;
+  color: #333; /* Dark text for better readability */
+  line-height: 1.6; /* Improve readability with increased line height */
+  max-width: 700px; /* Limit the width of paragraphs for better line breaks */
+  margin: 0 auto 1.5rem; /* Center and add space below */
+  font-weight: 400; /* Regular font weight for clean appearance */
+}
+main #contact img {
+  width: 100%;
+  max-width: 100px; /* Limit max width for better balance */
+  height: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 20%; /* Make images circular for a modern touch */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Subtle, larger shadow for depth */
+  transition: transform 0.3s ease; /* Smooth scale effect on hover */
+}
+main #contact img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
 /* --------------------------- FOOTER --------------------------- */
