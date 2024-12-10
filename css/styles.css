@@ -391,7 +391,7 @@ main #about {
 }
 main #about .image-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1fr);
   gap: 1rem;
 }
 main #about .image-grid img {
@@ -417,11 +417,16 @@ main #about h1 {
   letter-spacing: 0.05rem;
 }
 main #about p {
-  padding: 0.5rem 10px;
-  color: #000000;
-  line-height: 150%;
-  font-size: 1rem;
-  text-align: justify;
+  padding: 1rem 10px;
+  color: #333333;
+  line-height: 1.3;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 300;
+  max-width: 800px;
+  margin: 10 auto;
+  text-transform: none;
+  letter-spacing: 0.01rem;
 }
 main #education {
   background-color: #7ac48c;
@@ -530,6 +535,15 @@ main .card-content .card-link:hover {
 }
 main #tech {
   background-color: #c4b27a;
+  display: block;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #tech img {
+  max-width: 100%;
+  height: auto;
 }
 main #contact {
   background-color: #9fc47a;
@@ -637,6 +651,13 @@ footer a {
   nav ul a span {
     display: block;
   }
+  #about .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #about p {
+    line-height: 2;
+    font-size: 2.2rem;
+  }
 }
 @media only screen and (min-width: 64rem) {
   body {
@@ -665,5 +686,8 @@ footer a {
   }
   p {
     font-size: 1.1rem;
+  }
+  #about p {
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=styles.css.map */
