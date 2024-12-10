@@ -374,7 +374,7 @@ nav ul .active a {
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* --------------------------- MAIN --------------------------- */
