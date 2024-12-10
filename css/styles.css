@@ -599,6 +599,9 @@ main #contact .contact-form .submit-button {
 main #contact .contact-form .submit-button:hover {
   background-color: #7ac4c4;
 }
+main #socail-media p {
+  font-weight: 500;
+}
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
