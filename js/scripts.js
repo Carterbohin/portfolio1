@@ -1,4 +1,7 @@
 
+const rightNow = new Date();
+document.querySelector('#year').textContent = rightNow.getFullYear();
+
 
 // get me a list of all the items to watch
 const myListOfItems = document.querySelectorAll('section')
