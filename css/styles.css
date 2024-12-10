@@ -429,32 +429,41 @@ main #about p {
   letter-spacing: 0.01rem;
 }
 main #education {
-  background-color: #7ac48c;
-  padding: 1rem;
+  background-color: #7ac48c; /* This will be your accent green color */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 main #education img {
   max-width: 100%;
   height: auto;
-  display: block;
+  margin-bottom: 1.5rem;
   border-radius: 8px;
-  border: 2px solid #a8a8a8;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
 main #education h2 {
-  padding: 1rem 10px 0.5rem 10px;
-  font-size: 1.5rem;
+  padding: 1.5rem 0;
+  font-size: 2rem;
   color: black;
-  font-weight: 300;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase; /* Optional, for a clean look */
+  letter-spacing: 1px;
 }
 main #education p {
-  padding: 0.5rem 10px;
-  color: #000000;
-  line-height: 150%;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  max-width: 800px; /* Limit width for better readability */
+  margin-bottom: 2rem; /* Add space below the paragraph */
   text-align: justify;
+  font-weight: 400;
+  letter-spacing: 0.01rem;
 }
 main #work {
   background-color: #7a8cc4;
