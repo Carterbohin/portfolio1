@@ -600,6 +600,7 @@ main #contact .contact-form .submit-button:hover {
   background-color: #7ac4c4;
 }
 main #socail-media p {
+  text-align: center;
   font-weight: 500;
 }
 
