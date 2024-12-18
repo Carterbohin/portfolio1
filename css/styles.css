@@ -655,6 +655,13 @@ main #contact .contact-form .submit-button {
 main #contact .contact-form .submit-button:hover {
   background-color: #7ac4c4;
 }
+main #contact .social-media a {
+  color: #000000;
+  text-decoration: none;
+}
+main #contact .social-media a:hover {
+  color: #9f7ac4;
+}
 main #contact p {
   font-size: 1.1rem;
   color: #333; /* Dark text for better readability */
