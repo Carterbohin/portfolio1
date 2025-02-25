@@ -506,6 +506,14 @@ main .card {
   margin: 1rem auto;
   width: 90%;
 }
+main img.card-image {
+  width: 100%;
+  height: auto;
+}
+main img.card-image2 {
+  width: 100%;
+  height: auto;
+}
 main .card:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
@@ -755,5 +763,14 @@ footer a {
   }
   #about p {
     max-width: 800px;
+  }
+  img.card-image {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover; /* Ensures images maintain good quality and fill the area */
+    border-radius: 10px; /* Optional, for rounded corners */
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=styles.css.map */

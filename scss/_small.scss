@@ -241,7 +241,14 @@ main {
     margin: 1rem auto; // Center cards for small screens
     width: 90%; // Reduce card width to 90% of the container to make it smaller
 }
-
+img.card-image {
+    width: 100%;
+    height: auto;
+}
+img.card-image2 {
+    width: 100%;
+    height: auto;
+}
 .card:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);

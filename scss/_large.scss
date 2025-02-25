@@ -32,8 +32,14 @@ p {
     }
 }
 
-
-
-
+img.card-image {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover; /* Ensures images maintain good quality and fill the area */
+    border-radius: 10px; /* Optional, for rounded corners */
+    margin: 0 auto; // Center image horizontally
+  }
+  
 
 
